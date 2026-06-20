@@ -21,6 +21,9 @@ spring:
               lower-case-service-id: true
 
 management:
+  endpoint:
+    gateway:
+      access: unrestricted
   endpoints:
     web:
       exposure:
